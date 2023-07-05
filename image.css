@@ -1,0 +1,40 @@
+body{
+    margin: 30px;
+    align-content: center;
+    display: flex;
+
+}
+
+.container{
+    max-width: 760px;
+    margin-top: auto;
+    border: 5px solid rgb(180, 176, 176);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: end;
+    
+    
+}
+img {
+    width: 100%;
+}
+.imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:5px;
+    justify-content: center;
+    
+}
+.fade-in{
+    animation: fadeIn 0.6s ease-in forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
